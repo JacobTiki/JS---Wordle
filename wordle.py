@@ -1,4 +1,6 @@
-word = "honey"
+import random
+possibleWords = ["table", "shirt", "pants", "water", "knock"]
+word = random.choice(possibleWords)
 
 default = '\033[0m'
 green = '\033[92m'
